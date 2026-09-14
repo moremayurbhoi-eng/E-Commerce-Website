@@ -37,6 +37,21 @@ The backend provides REST APIs for product management, categories, cart, orders,
 - REST API
 - Multipart File Upload
 
+- ## 🏗️ Project Architecture
+
+The project follows a layered architecture:
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Entity
+    ↓
+MySQL Database
+
 ## 📁 Project Structure
 
 ```text
